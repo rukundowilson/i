@@ -33,7 +33,11 @@ body {
 .email{
     margin: 60px 0;
 }
-hr{
+.email hr{
     margin: 20px 0;
     color: rgba(128, 128, 128, 0.575);
+}
+footer hr{
+    display: block;
+    margin: 0 auto;
 }
