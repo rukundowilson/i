@@ -1,0 +1,39 @@
+body {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 16px;  
+}
+.main{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 30px 15px;
+}
+.left-about{
+    max-width: 500px;
+}
+.left-about h1{
+    font-family: 'Fjalla One', sans-serif;
+    line-height: 39px;
+}
+.right-about{
+    padding: 10px;    
+}
+.right-about img{
+    margin: 25px 10px;
+    background: rgba(0, 0, 0, 0.849);
+    border-radius: 10px;
+}
+.social-media>*{
+    margin: 10px 0;
+}
+.social-media a{
+    text-decoration: none;
+}
+.email{
+    margin: 60px 0;
+}
+hr{
+    margin: 20px 0;
+    color: rgba(128, 128, 128, 0.575);
+}
