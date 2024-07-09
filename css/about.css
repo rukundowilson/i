@@ -41,3 +41,19 @@ footer hr{
     display: block;
     margin: 0 auto;
 }
+
+@media screen and (max-width: 740px) {
+    .main{
+        flex-wrap: wrap;
+    }
+    .right-about{
+        display: flex;
+        margin: 10px;
+    }
+}
+@media screen and (max-width: 570px) {
+    .right-about{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

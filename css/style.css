@@ -523,7 +523,7 @@ footer a{
     /* ----nav bar----- */
     #navmenu{
         display: none;
-        top: 36px;
+        top: 42px;
         position: absolute;
         padding: 10px;
         line-height: 20px;
