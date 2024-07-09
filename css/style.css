@@ -370,12 +370,12 @@ main{
     align-items: center;
     justify-content: center;
     gap: 20px;
-    max-width: 940px;
+    max-width: 960px;
 }
 .projects{
     border: 1px solid #cccccc41;
     padding: 10px;
-    margin: 29px;
+    margin: 30px 30px;
     display: block;
     text-wrap: nowrap;
     flex-grow: 1;
@@ -454,9 +454,7 @@ main{
 }
 /* sample about me */
 .about-me{
-    margin: 30px 15px;
-    align-self: center;
-    max-width: 500px;
+    margin: 30px;
 }
 .contact-me{
     margin: 10px 15px;
@@ -563,5 +561,15 @@ footer a{
         flex-grow: 1;
         border: 1px solid #cccccc59;
         margin: 10px 30px;
+    }
+}
+/* -------570px responsive--- */
+@media screen and (max-width: 570px) {
+    .right-about{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .projects{
+        text-wrap: wrap;
     }
 }

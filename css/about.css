@@ -56,4 +56,7 @@ footer hr{
         flex-wrap: wrap;
         justify-content: center;
     }
+    .projects{
+        text-wrap: wrap;
+    }
 }
