@@ -1,0 +1,23 @@
+.paragraph{
+    max-width: 700px;
+    margin: 80px 10px;
+
+}
+.tools{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin: 10px 10px 22px 0;
+}
+.describe-tool{
+    margin-right: 22px;
+}
+.tools h4{
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.774);
+    margin-top: 10px 3px;
+}
+p{
+    font-size: 15px;
+}
